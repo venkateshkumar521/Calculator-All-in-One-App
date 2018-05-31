@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">CalculatorApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="stdCal">Standard Calculator</string>
+    <string name="sciCal">Scientific Calculator</string>
+    <string name="unitCal">Unit Converter</string>
+    <string name="FullCal">Calculator App</string>
+    <string name="title_activity_standard_cal">StandardCal</string>
+    <string name="title_activity_scientific_cal">ScientificCal</string>
+    <string name="title_activity_unit_coverter">UnitCoverter</string>
+    <string name="clear">C</string>
+    <string name="backspace">⌫</string>
+    <string name="divide">÷</string>
+    <string name="sqrt">√</string>
+    <string name="cuberoot">\u221B</string>
+    <string name="square">x²</string>
+    <string name="cube">x\u00B3</string>
+    <string name="tenpow">10\u207F</string>
+    <string name="sininv">sin\u207B\u00B9</string>
+    <string name="cosinv">cos\u207B\u00B9</string>
+    <string name="taninv">tan\u207B\u00B9</string>
+    <string name="posneg">±</string>
+    <string name="arrow">↑</string>
+    <string name="xpown">xⁿ</string>
+    <string name="epown">eⁿ</string>
+    <string name="pi">π</string>
+    <string name="title_activity_unit_area">UnitArea</string>
+    <string name="title_activity_unit_length">UnitLength</string>
+    <string name="title_activity_unit_weight">UnitWeight</string>
+    <string name="title_activity_unit_temperature">UnitTemperature</string>
+    <string name="openBracket">(</string>
+    <string name="closeBracket">)</string>
+    <string name="history">History</string>
+
+    <string-array name="area">
+        <item>Sq. Millimeter</item>
+        <item>Sq. Centimeter</item>
+        <item>Sq Meter</item>
+        <item>Sq. Kilometer</item>
+        <item>Acre</item>
+        <item>Hectare</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Nanometer</item>
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Inches</item>
+        <item>Foot</item>
+        <item>Yards</item>
+        <item>Mile</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Farenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="weight">
+        <item>Milligrams</item>
+        <item>Centigrams</item>
+        <item>Decigrams</item>
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Metric tonnes</item>
+        <item>Pounds</item>
+        <item>Ounces</item>
+    </string-array>
+
+    <string name="title_activity_history">History</string>
+    <string name="deleteHistory">Delete History</string>
+    <string name="mode1">Degree</string>
+    <string name="mode2">Radian</string>
+    <string name="toggle">SWITCH</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="naturalLog">ln</string>
+    <string name="hyperbolicSine">sinh</string>
+    <string name="hyperbolicCosine">cosh</string>
+    <string name="hyperbolicTan">tanh</string>
+    <string name="log">log</string>
+    <string name="Mod">%</string>
+    <string name="inverse">1/x</string>
+    <string name="factorial">x!</string>
+    <string name="calculator_app" />
+    <string name="standard_calculator" />
+    <string name="scientific_calculator" />
+    <string name="unit_calculator" />
+    <string name="appbar_scrolling_view_behavior" />
+    <string name="calculate" />
+    <string name="result" />
+    <string name="enter_number" />
+    <string name="factorial_app" />
+    <string name="factorial_calculator">Factorial Calculator</string>
+    <string name="unit_calculator3">unit Calculator</string>
+    <string name="scientific_calculator3">Scientific calculator</string>
+    <string name="standard_calculator3">Standard Calculator</string>
+    <string name="calculator_app3">Calculator App</string>
+    <string name="calculate3">Calculate</string>
+    <string name="factorial_app3">Factorial App</string>
+    <string name="calculate4">Calculate</string>
+    <string name="fibanocci_callculator">Fibanocci callculator</string>
+    <string name="find">Find</string>
+    <string name="textview">TextView</string>
+    <string name="enter_number4">Enter Number..</string>
+    <string name="evenodd_calculator">EvenOdd Calculator</string>
+    <string name="calculateBMI" />
+    <string name="height" />
+    <string name="weight" />
+    <string name="very_severely_underweight" />
+    <string name="severely_underweight" />
+    <string name="normal">Normal</string>
+    <string name="underweight">Underweight</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_ii">obese-class-ii</string>
+    <string name="obese_class_i">obese-class-i</string>
+    <string name="obese_class_iii">obese-class-iii</string>
+    <string name="bmi_calculator">BMI calculator</string>
+    <string name="multiplication_table">Multiplication Table</string>
+    <string name="_0">0</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="bmi_body_mass_index_calculator">BMI(Body Mass Index) calculator</string>
+    <string name="even_odd_calculator">Even/Odd_calculator</string>>
+</resources>

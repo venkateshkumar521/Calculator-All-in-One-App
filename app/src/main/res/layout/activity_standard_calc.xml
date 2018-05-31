@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".StandardCalc">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:textAlignment="textEnd"
+        android:gravity="end" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:textAlignment="textEnd"
+        android:gravity="end" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:id="@+id/clear"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backspace"
+        android:id="@+id/backSpace"
+        android:layout_alignBottom="@+id/clear"
+        android:layout_toRightOf="@+id/clear"
+        android:layout_toEndOf="@+id/clear"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/num7"
+        android:layout_below="@+id/clear"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/num8"
+        android:layout_alignBottom="@+id/num7"
+        android:layout_toRightOf="@+id/num7"
+        android:layout_toEndOf="@+id/num7"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/num9"
+        android:layout_alignBottom="@+id/num8"
+        android:layout_toRightOf="@+id/num8"
+        android:layout_toEndOf="@+id/num8"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/num4"
+        android:layout_below="@+id/num7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/num5"
+        android:layout_alignBottom="@+id/num4"
+        android:layout_toRightOf="@+id/num4"
+        android:layout_toEndOf="@+id/num4"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/num6"
+        android:layout_alignBottom="@+id/num5"
+        android:layout_toRightOf="@+id/num5"
+        android:layout_toEndOf="@+id/num5"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/num1"
+        android:layout_below="@+id/num4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/num2"
+        android:layout_alignBottom="@+id/num1"
+        android:layout_alignLeft="@+id/num5"
+        android:layout_alignStart="@+id/num5"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/num3"
+        android:layout_alignBottom="@+id/num2"
+        android:layout_toRightOf="@+id/num2"
+        android:layout_toEndOf="@+id/num2"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/posneg"
+        android:id="@+id/posneg"
+        android:layout_below="@+id/num1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/num0"
+        android:layout_alignBottom="@+id/posneg"
+        android:layout_toRightOf="@+id/posneg"
+        android:layout_toEndOf="@+id/posneg"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:id="@+id/dot"
+        android:layout_alignBottom="@+id/num0"
+        android:layout_toRightOf="@+id/num0"
+        android:layout_toEndOf="@+id/num0"
+        android:textSize="20dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/plus"
+        android:layout_above="@+id/num6"
+        android:layout_toRightOf="@+id/num9"
+        android:layout_toEndOf="@+id/num9"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/minus"
+        android:layout_above="@+id/num3"
+        android:layout_toRightOf="@+id/num6"
+        android:layout_toEndOf="@+id/num6"
+        android:textSize="20dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/divide"
+        android:id="@+id/divide"
+        android:layout_above="@+id/dot"
+        android:layout_alignLeft="@+id/minus"
+        android:layout_alignStart="@+id/minus"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/multiply"
+        android:layout_alignBottom="@+id/dot"
+        android:layout_alignLeft="@+id/divide"
+        android:layout_alignStart="@+id/divide"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/equal"
+        android:onClick="onClick"
+        android:layout_below="@+id/openBracket"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/square"
+        android:id="@+id/square"
+        android:onClick="onClick"
+        android:layout_below="@+id/dot"
+        android:layout_toLeftOf="@+id/sqrt"
+        android:layout_toStartOf="@+id/sqrt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sqrt"
+        android:id="@+id/sqrt"
+        android:layout_alignBottom="@+id/square"
+        android:layout_alignLeft="@+id/multiply"
+        android:layout_alignStart="@+id/multiply"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/openBracket"
+        android:id="@+id/openBracket"
+        android:layout_below="@+id/posneg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/closeBracket"
+        android:id="@+id/closeBracket"
+        android:layout_alignBottom="@+id/square"
+        android:layout_toRightOf="@+id/openBracket"
+        android:layout_toEndOf="@+id/openBracket"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:id="@+id/history"
+        android:layout_below="@+id/equal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+</RelativeLayout>
